@@ -2,9 +2,9 @@ strong {
     color: #2493df;
 }
 
-header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
     letter-spacing: 2px;
 }
@@ -20,20 +20,18 @@ li {
 }
 
 label {
+    font-size: 16px;
     font-weight: bold;
 }
 
 section {
     background-color: white;
+    padding: 10px;
 }
 
 img {
     float: left;
     margin-right: 10px;
-}
-
-div {
-    display: flex;
 }
 
 table {
@@ -47,6 +45,7 @@ td, th {
 
 th {
     background-color: #2493df;
+    color: white;
 }
 
 input[type="number"] {
@@ -60,15 +59,20 @@ input[type="button"] {
     color: white;
     font-size: 16px;
     font-weight: bold;
+    border: none;
     height: 40px;
     width: 100px;
 }
 
 footer {
-    padding-top: 10px;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: 14px;
     color: #595959;
     text-align: center;
+}
+
+form {
+    display: flex;
 }
 
 .form-section {
@@ -77,6 +81,9 @@ footer {
 
 #buy {
     position: fixed;
+    background-color: #687373;
+    color: #fcfcfc;
+    margin-top: 10px;
     bottom: 0px;
     right: 0px;
     width: 100%;

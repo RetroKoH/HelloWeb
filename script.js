@@ -1,5 +1,5 @@
 // JavaScript source code
-alert("This alert box was called with the onload event");
+//alert("This alert box was called with the onload event");
 
 let adults = 42;
 let children = 16;
