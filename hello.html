@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
-		<title>Hello!</title>
-		<style>
-			h1 {
-				color: blue;
-			}
-		</style>
+		<title>Ticketing</title>
 	</head>
 	<body>
-		<h1>Welcome to my website!</h1>
-		<h2>Hello!</h2>
-		Hello, world!
+		<section>
+			<h1>The Eiffel Tower</h1>
+			<a href="https://sololearnassets.azureedge.net/eiffel-tower.jpg" target="_blank">
+				<img src="https://sololearnassets.azureedge.net/eiffel-tower.jpg" alt="Eiffel Tower" width="30%" />
+			</a>
+			<p>
+				The Eiffel Tower is a wrought iron tower that stands 1,063 ft (324 m) tall in Paris.
+
+				Currently, the Eiffel Tower is the most-visited monument in the world, with over 7 million visitors a year.
+
+				Visitors can choose to go up using the Tower lift, or the stairs. There are 1,665 steps to the top.
+			</p>
+
+			<p>
+				<b>Transport</b>
+				<ul>
+					<li>Bus: Lines 42, 69, 72, 82, and 87.</li>
+					<li>Metro: Trocadero, Ecole Militaire.</li>
+					<li>Train: Champ de Mars - Tour Eiffel, Line C.</li>
+				</ul>
+				<b>Prices:</b>
+				<table>
+					<tr>
+						<th>Category</th>
+						<th>Price</th>
+					</tr>
+					<tr>
+						<td>Adults</td>
+						<td>$12</td>
+					</tr>
+					<tr>
+						<td>Children</td>
+						<td>$9</td>
+					</tr>
+				</table>
+			</p>
+		</section>
+
+		<section>
+			<div class="form-section">
+				<label for="adult">Adults</label>
+				<input type="number" id="adult" />
+			</div>
+			<div class="form-section">
+				<label for="child">Children</label>
+				<input type="number" id="child" />
+			</div>
+			<div class="form-section">
+				<input type="button" value="Buy" />
+			</div>
+		</section>
+
+		<footer>&copy; Copyright</footer>
 	</body>
 </html>
